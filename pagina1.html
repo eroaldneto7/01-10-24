@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Formulário de Cadastro</h1>
+    <form action="">
+        <label for="primeiro_nome">
+            bote aqui:
+         </label> <br>
+
+        <input type="text"
+             name="primerio_nome"
+                placeholder="primeiro Nome aqui"> <br> <br>
+
+         
+                <label for="sobrenome">
+                    sobrenome:
+                 </label> <br>
+                 <input type="text"
+                 name="sobrenome"
+                    placeholder="digite seu Nome"> <br> <br>
+
+        <label>hora de nascimento:</label> <br>
+        <input type="time" name="hora_nasc" required> <br>
+
+        <label> sua senha:</label> <br>
+        <input type="passworld" name="senha" required> <br>
+
+        <label> repita sua senha:</label> <br>
+        <input type="passworld" name="rep_senha" required> <br>
+
+        <label> email:</label> <br>
+        <input type="email" name="email" required> <br>
+
+        <label> numero da casa:</label> <br>
+        <input type="number" name="num_casa">  <br>
+
+        <label> peso:</label> <br>
+        <input type="number" 
+               step="0.01" 
+               name="peso"
+               min="40,5"
+               max="50.1"> <br><br>
+
+               <label> telefone:</label> <br>
+               <input type="tel" name="celular" required>  <br>
+
+               <label> Linguagens preferências:</label> <br>
+               <input type="checkbox" name="op_python"> python <br>
+               <input type="checkbox" name="op_python"> javascript <br>
+               <input type="checkbox" name="op_python"> php <br>
+
+               <label> Gênero:</label> <br>
+               <input type="radio" name="Gênero" value="masculino"> masculino <br>
+               <input type="radio" name="Gênero" value="feminino"> feminino<br>
+               <input type="radio" name="Gênero" value="nao sei"> nao sei <br>  
+
+
+       <label>endereço</label> <br>        
+        <textarea name="endereço"  
+                  cols="30"
+                  rows="5"></textarea> <br><br>
+
+        <label>cor da camisa:</label><br>
+        <input type="color" name="cor_camisa"> <br><br>
+
+        <label>foto 3X4:</label> <br>
+        <input type="file" name="arquivo_foto">
+
+        <label>Curso</label> <br>
+        <select name="curso_escolhido">
+            <option value="op_ti">ti</option>
+            <option value="op_adm">adm</option>
+            <option value="op_eng">eng</option>
+        </select> 
+        <br>
+        <br><br>
+        <br>
+        <br><br>
+
+        <label>Contribuiçao mensal:</label>
+        <input type="range"
+        min="50" max="6000"
+        value="5000">
+
+
+        <input type="submit" value="cadastrar">
+        <button type="submit"> enviar</button>
+<br>
+        
+        <input type="reset" value="limpar Formulário"> 
+        <button type="submit"> limpar formulario</button>
+
+             
+                
+
+
+
+
+        
+
+
+    
+</body>
+</html>
